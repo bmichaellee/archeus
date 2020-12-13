@@ -1,0 +1,15 @@
+.SocialMediaLink {
+  flex: 1;
+  display: flex;
+  color: inherit;
+  opacity: 0.7;
+
+  &:hover, &:focus {
+    opacity: 1;
+  }
+
+  svg {
+    height: inherit;
+    width: inherit;
+  }
+}

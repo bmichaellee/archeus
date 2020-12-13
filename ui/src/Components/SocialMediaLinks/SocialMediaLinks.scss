@@ -1,0 +1,18 @@
+@import 'Styles';
+
+.SocialMediaLinks {
+  display: flex;
+  fill: $theme_textColor;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  > * {
+    height: 64px;
+    max-height: 64px;
+    max-width: 64px;
+    flex: 1;
+    margin: 16px;
+  }
+}

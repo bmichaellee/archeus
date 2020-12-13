@@ -1,0 +1,17 @@
+@import 'Styles';
+
+#Landing {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 640px;
+  text-align: center;
+
+  color: $theme_textColor;
+
+  > * {
+    margin: 3vh 0;
+  }
+}

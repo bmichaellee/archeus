@@ -1,0 +1,22 @@
+@import 'Styles';
+
+.Logo {
+  color: $theme_textColor;
+  fill: $theme_textColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+
+  .logo-image {
+    max-width: 640px;
+    margin-bottom: 16px;
+  }
+
+  .subtitle {
+    font-size: 10pt;
+    opacity: 0.8;
+    font-style: italic;
+  }
+}
