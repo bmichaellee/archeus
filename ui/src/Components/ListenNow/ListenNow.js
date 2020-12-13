@@ -4,7 +4,7 @@ import { SoundCloudEmbed } from "Components";
 import './ListenNow.scss';
 
 const {
-  LISTEN_DISABLED = false,
+  REACT_APP_LISTEN_DISABLED = false,
 } = process.env;
 
 export const ListenNow = () => {
@@ -15,7 +15,7 @@ export const ListenNow = () => {
       { show ? (
         <SoundCloudEmbed />
       ) : (
-        <button disabled={ LISTEN_DISABLED } onClick={ () => setShow( !show ) }>
+        <button disabled={ REACT_APP_LISTEN_DISABLED } onClick={ () => setShow( !show ) }>
           Listen Now
         </button>
       ) }
